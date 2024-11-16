@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anti_opcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\authgg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\hwid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\lw_http.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\md5wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\injector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\intel_driver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\intel_driver_resource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\kdmapper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\lazy_importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\MainHide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\nt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\portable_executable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features Esp&amp;Aim\service.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="define\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api\shellcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api\utilit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="api\xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\aes_encryption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\authgg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\crypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\hwid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\lw_http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\md5wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth\print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features Esp&amp;Aim\intel_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features Esp&amp;Aim\kdmapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features Esp&amp;Aim\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features Esp&amp;Aim\portable_executable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features Esp&amp;Aim\service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\glew32s.lib" />
+    <Library Include="lib\glfw3.lib" />
+    <Library Include="KeyAuth\urlmon.lib" />
+  </ItemGroup>
+</Project>
